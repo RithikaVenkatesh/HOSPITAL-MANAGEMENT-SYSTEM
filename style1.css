@@ -2,26 +2,11 @@ body {
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
     background-size: cover;
 }
-
 .register{
     
     margin-top: 3%;
     padding: 3%;
 }
-
-
-.register-right{
-    background: #f8f9fa;
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-
 .register .register-form{
     padding: 10%;
     margin-top: 10%;
@@ -46,16 +31,13 @@ body {
     width: 28%;
     float: right;
 }
-.register .nav-tabs .nav-link{
+ .nav-tabs .nav-link{
     padding: 1%;
     height: 34px;
     font-weight: 600;
     color: #fff;
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
-}
-.register .nav-tabs .nav-link:hover{
-    border: none;
 }
 .register .nav-tabs .nav-link.active{
     width: 120px;
@@ -70,4 +52,3 @@ body {
     margin-bottom: -15%;
     color: #495057;
 }
-
